@@ -2,8 +2,18 @@
   "name": "tree-shaking-demo",
   "license": "MIT",
   "author": "Dewey Ou <oushihao97@gmail.com>",
+  "scripts": {
+    "dev": "pnpm run dev:webpack && pnpm run dev:rollup && pnpm run dev:esbuild",
+    "dev:webpack": "webpack",
+    "dev:rollup": "rollup -c",
+    "dev:esbuild": "node ./build.js"
+  },
   "devDependencies": {
     "@ouduidui/eslint-config-basic": "^0.1.1",
-    "eslint": "^8.16.0"
+     "esbuild": "^0.14.40",
+    "eslint": "^8.16.0",
+     "rollup": "^2.74.1",
+     "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
