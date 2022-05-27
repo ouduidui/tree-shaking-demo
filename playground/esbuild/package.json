@@ -1,0 +1,11 @@
+{
+  "name": "esbuild",
+  "author": "Dewey Ou <oushihao97@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./build.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.40"
+  }
+}

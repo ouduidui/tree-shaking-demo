@@ -1,0 +1,9 @@
+{
+  "name": "tree-shaking-demo",
+  "license": "MIT",
+  "author": "Dewey Ou <oushihao97@gmail.com>",
+  "devDependencies": {
+    "@ouduidui/eslint-config-basic": "^0.1.1",
+    "eslint": "^8.16.0"
+  }
+}
