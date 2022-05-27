@@ -6,5 +6,8 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'webpack.js',
   },
+  optimization: {
+    minimize: false,
+  },
   mode: 'production',
 }
