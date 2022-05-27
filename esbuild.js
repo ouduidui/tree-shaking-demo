@@ -3,4 +3,6 @@ require('esbuild').build({
   bundle: true,
   outfile: 'dist/esbuild.js',
   watch: true,
+  treeShaking: true,
+  minify: true,
 }).catch(() => process.exit(1))

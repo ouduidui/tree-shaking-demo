@@ -3,6 +3,8 @@
     "@ouduidui/eslint-config-basic"
   ],
   "rules": {
-    "no-console":"off"
+    "no-console":"off",
+    "no-unmodified-loop-condition": "off",
+    "no-unreachable":"off"
   }
 }
